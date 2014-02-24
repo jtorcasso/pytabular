@@ -1,0 +1,10 @@
+0.1.2
+-----
+- producing warnings instead of modifying cell contents when instantiating
+tabular objects.
+- added remove_character method
+
+0.1.3
+-----
+- added remove_character to act on all slices of tables, fixed bug with 
+non-string compatibility

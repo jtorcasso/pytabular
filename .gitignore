@@ -1,0 +1,15 @@
+# Compiled Python #
+###################
+*.pyc
+*~
+*ipynb_checkpoints/
+
+docs/build/
+
+bin/*.html
+
+PyTabular.egg-info/
+
+build/
+
+dist/
