@@ -61,6 +61,11 @@ Updating pytabular
 
 	pip install --upgrade pytabular
 
+Source
+------
+For source code and issues, please go to the 
+`github page <https://github.com/jtorcasso/pytabular>`_
+
 How to Use PyTabular
 --------------------
 We hope that PyTabular is easy to use. We provide a
