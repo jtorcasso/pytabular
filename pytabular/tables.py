@@ -255,8 +255,8 @@ class TabularCell(TabularBase):
             content of cell
 
         '''
-        
-        if not isinstance(content, (str, long, float, int, basestring)):
+        accepted = (str, long, float, int, basestring, np.generic)
+        if not isinstance(content, accepted):
             msg = 'content must be scalar type, received {}'.format(type(content))
             raise ValueError(msg)
         
